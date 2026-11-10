@@ -1,0 +1,85 @@
+body {
+  background: #f3f6fb;
+  color: #202938;
+}
+
+header {
+  background: linear-gradient(135deg, #263b80, #596fce);
+  color: white;
+}
+
+.content-card {
+  border: 0;
+  border-radius: 16px;
+  min-height: 360px;
+}
+
+.card-title {
+  margin-bottom: 1rem;
+}
+
+.content-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 230px;
+  padding: 0.5rem;
+}
+
+.content-area p {
+  overflow-wrap: anywhere;
+}
+
+.quote-text {
+  font-size: 1.15rem;
+  font-style: italic;
+}
+
+.quote-author {
+  margin-top: 1rem;
+  font-weight: 700;
+  color: #596fce;
+}
+
+.animal-image {
+  width: 100%;
+  height: 230px;
+  object-fit: contain;
+  border-radius: 10px;
+  background: #eef1f7;
+}
+
+.placeholder-text {
+  color: #7b8492;
+}
+
+.status-message {
+  min-height: 24px;
+  margin: 0.5rem 0;
+  color: #b02a37;
+  font-size: 0.9rem;
+}
+
+.btn {
+  border-radius: 10px;
+}
+
+footer {
+  color: #6c757d;
+}
+
+@media (max-width: 576px) {
+  header {
+    padding: 2rem 1rem !important;
+  }
+
+  .content-card {
+    min-height: 340px;
+  }
+
+  .animal-image {
+    height: 200px;
+  }
+}
